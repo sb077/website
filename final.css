@@ -1,0 +1,100 @@
+body{
+	font-family: 'Comic Neue', cursive;
+	background: rgb(16,198,228);
+background: linear-gradient(308deg, rgba(16,198,228,1) 12%, rgba(246,254,56,1) 100%);
+
+
+}
+.navbar{
+	text-transform: uppercase;
+	font-size: 15px; 
+	font-weight: 100;
+	text-align: center;
+	height: 50px;
+}
+.nav-link:hover{
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: #e4105b;
+}
+
+.d-block{
+	height: 500px;
+	width: 100px;
+	transition: transform 1s ease;
+}
+h1{
+	font-size: 80px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.intro{
+	padding: 50px;
+}
+.services{
+	padding: 20px;
+	background: url("https://images.unsplash.com/photo-1492892132812-a00a8b245c45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+}
+#shadow-text{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: linear-gradient(352deg, rgba(16,5,204,1) 0%, rgba(246,146,182,0.5102415966386555) 25%, rgba(57,222,255,1) 99%);
+}
+.jumbotron{
+	margin-top: 30px;
+}
+.fa-instagram,
+.fa-facebook{
+	-webkit-text-fill-color: white;
+}
+.fa-facebook{
+	-webkit-text-fill-color: blue;
+}
+.fa-instagram{
+	-webkit-text-fill-color: pink;
+}
+
+.copyright{
+	width: 100%;
+	text-align: center;
+	background-color: #16162d;
+	padding: 2rem 0;
+	position: relative;
+}
+.up{
+	position: absolute;
+	width: 5rem;
+	height: 5rem;
+	background-color: #eee;
+	top: -2.5rem;
+	right: 5rem;
+	border-radius: 100%;
+	display: flex;
+	animation: pulse 2s infinite;
+}
+.up i{
+	color: #16163d;
+	font-size: 2rem ;
+	margin: auto;
+	font-size: 2rem;
+}
+.copyright p{
+	font-size: 1.4rem;
+}
+@keyframes pulse{
+	0%{
+		box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+	}
+	70%{
+		box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+	}
+	100%{
+		box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+	}
+}
+@media only screen and (max-width : 768px) {
+    .navbar-collapse {
+    background: #1dfff9;
+  }
+}
